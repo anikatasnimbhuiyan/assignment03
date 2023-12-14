@@ -56,7 +56,11 @@ nav ul li a:hover{
    
 }
 
-
+h1{
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: 800;  
+}
 h2{
     font-size: 50px;
     font-family: sans-serif;
@@ -69,7 +73,7 @@ h3{
     color: #9659b1;  
 }
 h4{
-    font-size: 25px;
+    font-size: 28px;
     font-family: sans-serif;
     font-weight: 600;    
 }
@@ -85,7 +89,7 @@ li{
 .herobanner{
     margin: 0px;
     height: 500px;
-    background-image: url(../images/herobanner.jpg);
+    background-image: url("../images/herobanner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -93,8 +97,21 @@ li{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    background-color: #452f53;
+    background-blend-mode: soft-light;
     
 }
+
+.herobanner div h1 span{
+    background-image: url("../images/pinkbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 0px;
+    background-position: bottom;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 .aboutme{
     display: flex;
    
