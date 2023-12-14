@@ -99,6 +99,7 @@ li{
     justify-content: center;
     background-color: #452f53;
     background-blend-mode: soft-light;
+    background-attachment: fixed;
     
 }
 
@@ -110,6 +111,7 @@ li{
     background-position: bottom;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    
 }
 
 .aboutme{
