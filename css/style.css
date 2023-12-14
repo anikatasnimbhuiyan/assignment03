@@ -117,15 +117,15 @@ li{
 }
 
 .aboutme{
-    display: flex;
-   
+    display: flex;   
     background-color:#ededee ;
     box-sizing: border-box;
     
 }
 .aboutme div img{
     box-sizing: border-box;
-    margin: 50px ;
+    height: 400px;
+    width: 350px;
     object-fit: cover;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
